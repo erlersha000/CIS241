@@ -1,0 +1,140 @@
+/*CSS*/
+
+/*NAVIGATION BAR*/
+body 
+{
+  margin: 0;
+  font-family: sans-serif, Arial;
+  background-color: #000000;
+  padding: 10px;
+
+}
+
+.topnav 
+{
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 25px;
+  position: fixed;
+  top: 110px;
+  right: 500px;
+  width: 1000px
+}
+
+.topnav a 
+{
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 17px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 25px;
+}
+
+.topnav a:hover 
+{
+  background-color: #ffffff;
+  color: black;
+}
+
+.topnav a.active 
+{
+  background-color: #990099;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+/*TEXT RESCALING*/
+div.h1 {
+  display: block;
+  background-color: #000;
+  padding: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.h1 {
+    font-size: 30px;
+  }
+}
+
+
+/*GALLERY CSS*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
