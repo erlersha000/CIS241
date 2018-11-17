@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="Keywords" content="Information, Curiosity"/>
+<meta name="Description" content="The homepage for Information, Curiosity"/>
+<meta name="Author" content="Shaun Erler">
+<meta name="Robots" content="NOINDEX, NOFOLLOW">
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+
+	<title>Home - Information, Curiosity.</title>
+<div class="h1">/Information/Curiosity/</div>
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a href="interests.html">Interests</a>
+  <a href="reflections.html">Reflections</a>
+ <div class="topnav-right">
+  <a href="resume.html">Resume</a>
+  <a href="guestbook.html">GuestBook</a>
+ </div>
+</div>
+
+</head>
+<style>
+h2 
+{
+	color: white;
+}
+p 
+{
+	text-align: center;
+	color: white;
+}
+.footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+	font-family: sans-serif;
+}
+</style>
+	<body>
+
+	</br>
+	<h2>Hello World.</h2>
+	</br>
+	</br>
+	<p>Did you miss me?</p>
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+<p>&copy;2018 - /Information/Curiosity/</p>
+</div>
+</html>
